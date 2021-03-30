@@ -1,0 +1,116 @@
+* {
+    box-sizing:border-box;
+  }
+
+  #n1{
+      
+      width: 100%;
+      height: 400px;
+      background-image: url(768/1.jpg);
+      background-size: 100% 100%;
+      border: 1px solid red;     
+  }
+  #n2{
+    width: 100%;
+    height: 400px;
+    background-image: url(768/2.jpg);
+    background-size: 100% 100%;
+    border: 1px solid red;   
+  }
+  #n3{width: 100%;
+    height: 400px;
+    background-image: url(768/3.jpg);
+    background-size: 100% 100%;
+    border: 1px solid red;   }
+  #n4{width: 100%;
+    height: 400px;
+    background-image: url(768/4.jpg);
+    background-size: 100% 100%;
+    border: 1px solid red;   }
+  #n5{width: 100%;
+    height: 400px;
+    background-image: url(768/5.jpg);
+    background-size: 100% 100%;
+    border: 1px solid red;   }
+  #n6{width: 100%;
+    height: 400px;
+    background-image: url(768/7.jpg);
+    background-size: 100% 100%;
+    border: 1px solid red;   }
+  #n7{width: 100%;
+    height: 400px;
+    background-image: url(768/8.jpg);
+    background-size: 100% 100%;
+    border: 1px solid red;   }
+  #n8{width: 100%;
+    height: 400px;
+    background-image: url(768/9.jpg);
+    background-size: 100% 100%;
+    border: 1px solid red;   }
+  #n9{width: 100%;
+    height: 400px;
+    background-image: url(768/10.jpg);
+    background-size: 100% 100%;
+    border: 1px solid red;   }
+  #n10{width: 100%;
+    height: 400px;
+    background-image: url(768/11.jpg);
+    background-size: 100% 100%;
+    border: 1px solid red;   }
+  
+    @media only screen and (min-width: 768px) {
+        /* For tablets: */
+        #n1 {width: 100%;}
+        #n2 {width: 100%;}
+        #n3 {width: 100%;}
+        #n4 {width: 100%;}
+        #n5 {width: 100%;}
+        #n6 {width: 100%;}
+        #n7{width: 50%;
+        float: left;}
+        #n8 {width: 50%;
+            float: left;}
+        #n9 {width: 50%;
+            float: left;}
+        #n10 {width: 50%;
+            float: left;}
+        
+            @media only screen and (min-width: 1024px) {
+                /* For tablets: */
+                #n1 {width: 49%;
+                float: left;
+                height: 600px;
+            margin: 2px;}
+                #n2 {width: 50%;
+                float: left;
+                height: 600px;
+            margin: 2px;}
+
+                #n3 {width: 100%;
+                float: left;
+            height: 1024px;
+        margin: 5px;}
+
+                #n4 {width: 32.33%;
+                float: left;
+                margin: 2px;}
+
+                #n5 {width: 33.33%;
+                float: left;
+                margin: 2px;}
+                #n6 {width: 33.33%;
+                float: left;
+                margin: 2px;}
+                #n7{width: 24%;
+                float: left;
+                margin: 2px;}
+                #n8 {width: 25%;
+                    float: left;
+                    margin: 2px;}
+                #n9 {width: 25%;
+                    float: left;
+                    margin: 2px;}
+                #n10 {width: 25%;
+                    float: left;
+                    margin: 2px;}
+                
